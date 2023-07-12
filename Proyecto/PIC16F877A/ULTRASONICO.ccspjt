@@ -1,0 +1,23 @@
+[PROJECT]
+Target=ULTRASONICO.hex
+Processor_Text=PIC16F877A
+CCSVersion=5.076
+Compiler=PCM
+[Target Data]
+FileList=ULTRASONICO.c
+[ULTRASONICO.c]
+Type=4
+[mru-list]
+1=ULTRASONICO.c
+[Units]
+Count=1
+1=ULTRASONICO (main)
+
+[defines]
+buildcount=1
+
+[ProjectLog]
+Days=1
+D1=24-02-2022
+D1_L=1
+D1_L1=[55945]Project Closed.

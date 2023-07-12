@@ -1,0 +1,5 @@
+Compiling E:\Martin Hdez\Desktop\CCS 16F\877A\Práctica 17\ULTRASONICO on 24-feb.-22 at 15:32
+>>> Warning 203 "ULTRASONICO.c" Line 35(1,1): Condition always TRUE
+      Memory usage:   ROM=15%      RAM=5% - 9%
+      0 Errors,  1 Warnings.
+Build Successful.
