@@ -1,0 +1,31 @@
+on: [push]
+
+jobs:
+  gist-sync:
+    name: gist-sync
+    runs-on: ubuntu-latest
+    steps:
+    #PIC16F877A
+      - name: Checkout
+        uses: actions/checkout@v2
+      - uses: vhperaltaj/gist-sync-action@v1.0.0
+        id: PIC16F877A
+        with:
+          auth: ${{ secrets.GIST_TOKEN }}
+          gist_url: https://gist.github.com/microside-mx/6fe9dc22dd990a7b41d913dabc489210
+          gist_title: Práctica 17- Sensor ultrasónico PIC16F877A CCS.c
+          gist_description: Prácticas PIC CCS
+          github_file: Proyecto/PIC16F877A/ULTRASONICO.c
+          file_encoding: WINDOWS-1252
+    #PIC16F887
+      - name: Checkout
+        uses: actions/checkout@v2
+      - uses: vhperaltaj/gist-sync-action@v1.0.0
+        id: PIC16F887
+        with:
+          auth: ${{ secrets.GIST_TOKEN }}
+          gist_url: https://gist.github.com/microside-mx/da53986f59bfd5d8ae212df1bf846100
+          gist_title: Práctica 17- Sensor ultrasónico PIC16F887 CCS.c
+          gist_description: Prácticas PIC CCS
+          github_file: Proyecto/PIC16F887/ULTRASONICO.c
+          file_encoding: WINDOWS-1252
