@@ -1,6 +1,6 @@
 
-ROM used:   1191/8192 (15%)
-            1191/8192 (15%) including unused fragments
+ROM used:   1192/8192 (15%)
+            1192/8192 (15%) including unused fragments
 
             1.2 Average locations per line
             13.5 Average locations per statement
@@ -13,17 +13,17 @@ Stack size: 8
 
 Lines Stmts  %   Files
 ----- ----- ---  -----
-   55    19  22  ULTRASONICO.c
-  684     0   0  ..\..\..\..\..\Program Files\PICC\Devices\16F877A.h
+   59    19  22  ULTRASONICO.c
+  708     0   0  ..\..\..\..\..\..\..\..\..\..\Program Files (x86)\PICCDEMO\Devices\16F877A.h
   239    69  78  flex_lcd.h
 ----- -----
-  978    88 Total
+ 1006    88 Total
 
 Page ROM  %  RAM    Vol Diff  Functions:
 ---- --- --- ---    --- ----  ----------
 0     20   2    1             @delay_ms1
 0     17   1    1             @delay_us1
-0      8   1    0     86  1.3  @const638
+0      8   1    0     86  1.3  @const701
 0     44   4    1    328  2.7  lcd_send_nibble
 0     37   3    1    362  2.3  lcd_read_nibble
  Inline         3    165  3.3  lcd_read_byte
@@ -31,32 +31,32 @@ Page ROM  %  RAM    Vol Diff  Functions:
 0     48   4    2    384  4.4  lcd_init
  Inline         4    186  5.5  lcd_gotoxy
 0     52   4    1    275  3.9  lcd_putc
-0    198  17    4    468  4.5  MAIN
+0    199  17    4    468  4.5  MAIN
 0     29   2    2    186  5.5  @ITOF
 0    117  10   13    275  3.9  @MULFF
 0    323  27   16    200  3.3  @ADDFF
 0     33   3    4     82  2.7  @SFTOI
-0     10   1    0    160  2.5  @const688
-0     89   7    5             @PSTRINGCN7_660
-0    101   8    9             @PRINTF_LU_660
+0     10   1    0    160  2.5  @const751
+0     89   7    5             @PSTRINGCN7_723
+0    101   8    9             @PRINTF_LU_723
  Inline         0             @cinit1
 
 Program metrics:
     Functions               14
     Statements              88
-    Comments                208
+    Comments                223
     Volume (V)              6031
     Difficulty (D)          48.6
     Effort to implement (E) 293121
     Time to implement (T)   4 hours, 31 minutes
     Est Delivered Bugs (B)  1
     Cyclomatic Complexity   13
-    Maintainability (MI)    94
+    Maintainability (MI)    104
 
  Segment     Used  Free
 -----------  ----  ----
 00000-00003     4  0  
-00004-007FF  1187  857  
+00004-007FF  1188  856  
 00800-00FFF     0  2048  
 01000-017FF     0  2048  
 01800-01FFF     0  2048  

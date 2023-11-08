@@ -10,33 +10,33 @@
 022-023 vtimer1
 024-027 tiempo
 028     @TRIS_C
-029-02A @PRINTF_LU_667.P1
+029-02A @ITOF.P1
+029-02A @PRINTF_LU_730.P2
+029-02C @SFTOI.P3
+029     @PSTRINGCN7_730.P4
 029     lcd_init.i
-029-02C @SFTOI.P1
-029-02C @MULFF.P2
-029     @PSTRINGCN7_667.P3
-029-02A @ITOF.P4
+029-02C @MULFF.P1
 029     MAIN.@SCRATCH1
 02A     @delay_us1.P1
 02A     lcd_init.@SCRATCH1
 02A     MAIN.@SCRATCH2
-02A     @PSTRINGCN7_667.@SCRATCH1
+02A     @PSTRINGCN7_730.@SCRATCH1
 02B     MAIN.@SCRATCH3
-02B     @PSTRINGCN7_667.@SCRATCH2
-02B     @PRINTF_LU_667.@SCRATCH1
+02B     @PSTRINGCN7_730.@SCRATCH2
+02B     @PRINTF_LU_730.@SCRATCH1
 02C     MAIN.@SCRATCH4
-02C     @PSTRINGCN7_667.@SCRATCH3
-02C     @PRINTF_LU_667.@SCRATCH2
-02D-030 @MULFF.P1
-02D-030 @ADDFF.P2
-02D     @PSTRINGCN7_667.@SCRATCH4
-02D     @PRINTF_LU_667.@SCRATCH3
-02E     @PRINTF_LU_667.@SCRATCH4
-02F     @PRINTF_LU_667.@SCRATCH5
-030     @PRINTF_LU_667.@SCRATCH6
+02C     @PSTRINGCN7_730.@SCRATCH3
+02C     @PRINTF_LU_730.@SCRATCH2
+02D-030 @ADDFF.P1
+02D-030 @MULFF.P2
+02D     @PSTRINGCN7_730.@SCRATCH4
+02D     @PRINTF_LU_730.@SCRATCH3
+02E     @PRINTF_LU_730.@SCRATCH4
+02F     @PRINTF_LU_730.@SCRATCH5
+030     @PRINTF_LU_730.@SCRATCH6
 031-034 @ADDFF.P1
 031     @MULFF.@SCRATCH1
-031     @PRINTF_LU_667.@SCRATCH7
+031     @PRINTF_LU_730.@SCRATCH7
 032     lcd_putc.c
 032     @MULFF.@SCRATCH2
 033     @delay_ms1.P1
@@ -74,13 +74,13 @@
 07A     @SCRATCH
 107.6   C1OUT
 108.6   C2OUT
-10D-10E @READ_PROGRAM_MEMORY8.P1
-10D-10E @WRITE_PROGRAM_MEMORY8.P2
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
 
 ROM Allocation:
 000004  LCD_INIT_STRING.call
 000008  LCD_INIT_STRING.data
-00000C  @const695.call
+00000C  @const758.call
 000016  @delay_ms1
 00002A  lcd_send_nibble
 000056  lcd_read_nibble
@@ -94,27 +94,26 @@ ROM Allocation:
 0002CE  @SFTOI
 0002EF  lcd_putc
 000306  lcd_gotoxy
-000323  @PSTRINGCN7_667
-00037C  @PRINTF_LU_667
+000323  @PSTRINGCN7_730
+00037C  @PRINTF_LU_730
 0003E1  MAIN
 0003E1  @cinit1
 0003F5  @cinit2
 
 Project Directory:
-    E:\Martin Hdez\Desktop\CCS 16F\887\Práctica 17\
+    C:\Users\victo\OneDrive\Documentos\X-TRAINER-hands-on\CCS\PIC16F\17-Sensor-ultrasonico-CCS-PIC16F887-877A\Proyecto\PIC16F887\
 
 Project Files:
-    ULTRASONICO.c                                           [24-feb.-22 15:31  CRC=7D72E1C9]
-    ..\..\..\..\..\Program Files\PICC\Devices\16F887.h      [15-ene.-18 15:53  CRC=9C71CB72]
-    flex_lcd.h                                              [24-feb.-22 15:28  CRC=282E02A0]
+    ULTRASONICO.c                                           [30-ago.-23 11:21  CRC=54294B68]
+    ..\..\..\..\..\..\..\..\..\..\Program Files (x86)\PICCDEMO\Devices\16F887.h [02-may.-23 08:27  CRC=A824942D]
+    flex_lcd.h                                              [24-feb.-22 23:03  CRC=282E02A0]
 
-Source signature=6A40B27B
+Source signature=4CA9E4D5
 Program memory checksum=0000
-Program memory CRC=0000
-Hex file CRC=0B0A
+Hex file CRC=35DD
 
 Units:
-    ULTRASONICO (main)
+    C:\Users\victo\OneDrive\Documentos\X-TRAINER-hands-on\CCS\PIC16F\17-Sensor-ultrasonico-CCS-PIC16F887-877A\Proyecto\PIC16F887\ULTRASONICO (main)
 
 Compiler Settings:
     Processor:      PIC16F887
@@ -123,7 +122,10 @@ Compiler Settings:
     Opt Level:      9
     Short,Int,Long: UNSIGNED: 1,8,16
     Float,Double:   32,32
-    Compile Mode:       CCS5
+    Compile Mode:   CCS5
+
+Compiler operating in Evaluation Mode
+To obtain a fully enabled compiler visit www.ccsinfo.com/products
 
 Output Files:
     XREF file:   ULTRASONICO.xsym

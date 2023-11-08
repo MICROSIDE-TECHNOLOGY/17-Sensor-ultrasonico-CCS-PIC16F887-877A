@@ -1,7 +1,7 @@
 [PROJECT]
 Target=ULTRASONICO.hex
 Processor_Text=PIC16F887
-CCSVersion=5.076
+CCSVersion=5.115d
 Compiler=PCM
 [Target Data]
 FileList=ULTRASONICO.c
@@ -9,16 +9,30 @@ FileList=ULTRASONICO.c
 Type=4
 [mru-list]
 1=ULTRASONICO.c
-[Units]
-Count=1
-1=ULTRASONICO (main)
 
 [defines]
-buildcount=1
+buildcount=2
 
 [ProjectLog]
-Days=1
+Days=2
 D1=24-02-2022
 D1_L=2
 D1_L1=[55906]Started Editing.
 D1_L2=[55919]Project Closed.
+D2=30-08-2023
+D2_L=4
+D2_L1=[40920]Project Opened.
+D2_L2=[41106]Project Closed.
+D2_L3=[41126]Project Opened.
+D2_L4=[41141]Project Closed.
+
+[fileformats]
+forcecoff=0
+
+[Opened Files]
+1=ULTRASONICO.c
+t1=1
+Count=1
+[Units]
+Count=1
+1=ULTRASONICO (main)

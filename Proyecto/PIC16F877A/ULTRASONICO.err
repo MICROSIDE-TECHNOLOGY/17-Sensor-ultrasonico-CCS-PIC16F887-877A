@@ -1,5 +1,5 @@
-Compiling E:\Martin Hdez\Desktop\CCS 16F\877A\Práctica 17\ULTRASONICO on 24-feb.-22 at 15:32
->>> Warning 203 "ULTRASONICO.c" Line 35(1,1): Condition always TRUE
+Compiling C:\Users\victo\OneDrive\Documentos\X-TRAINER-hands-on\CCS\PIC16F\17-Sensor-ultrasonico-CCS-PIC16F887-877A\Proyecto\PIC16F877A\ULTRASONICO on 30-ago.-23 at 11:21
+>>> Warning 203 "C:\Users\victo\OneDrive\Documentos\X-TRAINER-hands-on\CCS\PIC16F\17-Sensor-ultrasonico-CCS-PIC16F887-877A\Proyecto\PIC16F877A\ULTRASONICO.c" Line 43(1,1): Condition always TRUE
       Memory usage:   ROM=15%      RAM=5% - 9%
       0 Errors,  1 Warnings.
 Build Successful.
